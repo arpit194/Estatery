@@ -29,3 +29,9 @@
 .option:hover {
   background: var(--grey);
 }
+
+@media only screen and (max-width: 480px) {
+  .container {
+    margin-left: auto;
+  }
+}
