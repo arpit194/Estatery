@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,800;1,100;1,200;1,400;1,600;1,800&display=swap");
+
+:root {
+  --primary: #6e66ef;
+  --primaryLight: #e2d8fa;
+  --primaryLightest: #f8f7fd;
+  --light: #ffffff;
+  --dark: #0a0b2a;
+  --grey: #999;
+  --red: #ef6666;
+  --green: #66ef7d;
+  --gradient1: #e2d8fa;
+  --gradient2: #fde1fa;
+  --font05: 0.5rem;
+  --font075: 0.75rem;
+  --font1: 1rem;
+  --font125: 1.25rem;
+  --font15: 1.5rem;
+  --font2: 2rem;
+  --font225: 2.25rem;
+  --font25: 2.5rem;
+  --font3: 3rem;
+  --font325: 3.25rem;
+  --font35: 3.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins";
+  color: var(--dark);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+sup {
+  color: inherit;
+}

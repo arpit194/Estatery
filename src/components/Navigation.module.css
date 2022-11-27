@@ -1,0 +1,40 @@
+.container {
+  padding: 20px 40px;
+  border-bottom: 1px solid var(--grey);
+  display: flex;
+  gap: 40px;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: var(--font125);
+  display: flex;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.navLink {
+  font-weight: 400;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px;
+  transition: 0.25s ease-in-out;
+  border-radius: 5px;
+}
+
+.navLink:hover {
+  background: var(--primaryLight);
+  color: var(--primary);
+}
+
+.navButtons {
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+}
